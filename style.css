@@ -1,0 +1,329 @@
+:root {
+    --primary: #f9c800;
+    --secondary: #d9d0c1;
+    --background: #f2f2f2;
+    --hover: #BDA243;
+    --font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background)
+}
+
+h1 {
+    font-family: var(--font-family);
+}
+
+p {
+    font-family: var(--font-family);
+}
+
+.navigation-logo {
+    width: 60%;
+}
+
+.grid-container {
+    display: grid;
+    margin: 50px;
+    background-color: rgba(44, 46, 65, 0.8);
+    padding: 10px;
+    grid-gap: 50px;
+    justify-content: center;
+    float: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--hover, 0. 5);
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+}
+
+.intro {
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(255, 122, 4, 0.5);
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    background: var(--secondary);
+    text-align: center;
+}
+
+.btn1 {
+    width: 200px;
+    height: 200px;
+    outline-style: initial;
+    border-radius: 100px;
+    cursor: pointer;
+    background: var(--primary);
+    font-family: var(--font-family);
+    box-shadow: 0 10px 8px rgb(0 0 0 / 0.2);
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+/*https://www.kindacode.com/article/css-circle-button-examples/*/
+
+.btn1:hover {
+    background-color: var(--hover);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    font-size: 150%;
+}
+
+
+/*https://www.w3schools.com/howto/howto_css_zoom_hover.asp*/
+
+.btn2 {
+    width: 200px;
+    height: 200px;
+    outline-style: initial;
+    border-radius: 100px;
+    cursor: pointer;
+    background: var(--primary);
+    font-family: var(--font-family);
+    box-shadow: 0 10px 8px rgb(0 0 0 / 0.2);
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn2:hover {
+    background-color: var(--hover);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    font-size: 150%;
+}
+
+.btn3 {
+    width: 200px;
+    height: 200px;
+    outline-style: initial;
+    border-radius: 100px;
+    cursor: pointer;
+    background: var(--primary);
+    font-family: var(--font-family);
+    box-shadow: 0 10px 8px rgb(0 0 0 / 0.2);
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn3:hover {
+    background-color: var(--hover);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    font-size: 150%;
+}
+
+.btn4 {
+    width: 200px;
+    height: 200px;
+    outline-style: initial;
+    border-radius: 100px;
+    cursor: pointer;
+    background: var(--primary);
+    font-family: var(--font-family);
+    box-shadow: 0 10px 8px rgb(0 0 0 / 0.2);
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn4:hover {
+    background-color: var(--hover);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    font-size: 150%;
+}
+
+.btn5 {
+    width: 200px;
+    height: 200px;
+    outline-style: initial;
+    border-radius: 100px;
+    cursor: pointer;
+    background: var(--primary);
+    font-family: var(--font-family);
+    box-shadow: 0 10px 8px rgb(0 0 0 / 0.2);
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn5:hover {
+    background-color: var(--hover);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    font-size: 150%;
+}
+
+.btn6 {
+    width: 200px;
+    height: 200px;
+    outline-style: initial;
+    border-radius: 100px;
+    cursor: pointer;
+    background: var(--primary);
+    font-family: var(--font-family);
+    box-shadow: 0 10px 8px rgb(0 0 0 / 0.2);
+    font-size: 19px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btn6:hover {
+    background-color: var(--hover);
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.5);
+    font-size: 150%;
+}
+
+.conainter-mig {
+    display: block;
+}
+
+.mig {
+    width: 50%;
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    position: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.mig_portfolio {
+    width: 40%;
+    float: left;
+}
+
+.sect-paragraph {
+    padding: 2rem;
+    background-color: var(--secondary);
+}
+
+.rumrejse-tekst {
+    margin: 10%;
+    border: solid;
+    border-width: 2px;
+    border-color: rgba(255, 122, 4, 0.5);
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    background: var(--secondary);
+}
+
+.rumrejse-img {
+    background-color: rgba(44, 46, 65, 0.8);
+    width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: var(--hover, 0. 5);
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+}
+
+@media only screen and (min-width: 850px) {
+    .navigation-logo {
+        width: 40%;
+    }
+    .grid-container {
+        display: grid;
+        margin: 50px;
+        background-color: rgba(44, 46, 65, 0.8);
+        height: 80vh;
+        width: 100vh;
+        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        /* How many colums your elements can fill */
+        padding: 3em;
+        grid-gap: 10px;
+        align-items: center;
+    }
+    .intro {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        border-bottom: solid;
+        border-width: 2px;
+        border-color: rgba(255, 122, 4, 0.5);
+        text-align: center;
+        background-color: var(--secondary);
+        margin-bottom: 10rem;
+    }
+    .btn1 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: span 3;
+    }
+    .btn2 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: span 3;
+    }
+    .btn3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: span 3;
+    }
+    .btn4 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: span 5;
+    }
+    .btn5 {
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: span 5;
+    }
+    .btn6 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 4;
+        grid-row-end: span 5;
+    }
+    .conainter-mig {
+        float: right;
+    }
+    .mig {
+        width: 25%;
+        box-shadow: 0 10px 8px rgb(0 0 0 / 0.2);
+        float: right;
+        position: absolute;
+    }
+    .mig_portfolio {
+        width: 30%;
+        float: left;
+    }
+    .rumrejse-tekst {
+        float: right;
+    }
+    .rumrejse-img {
+        float: left;
+    }
+    /*.mig {
+        width: 30%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        background-color: var(--secondary);
+    }*/
+}
