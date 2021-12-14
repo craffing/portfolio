@@ -24,6 +24,10 @@ h1 {
     font-weight: normal;
 }
 
+h2 {
+    font-weight: normal;
+}
+
 h3 {
     font-weight: normal;
 }
@@ -258,6 +262,30 @@ h3 {
     width: 50%;
     margin: 3rem;
     border-radius: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.kontaktside {
+    text-align: center;
+    font-family: menufont;
+    color: white;
+    position: relative;
+    background-image: url("img/kontakt.jpg");
+    background-size: 100%;
+}
+
+.kontaktoverskrift {
+    font-family: 'Rouge Script';
+    font-size: 90px;
+    text-align: center;
+    margin-top: 9rem;
+}
+
+.somelogo {
+    width: 10%;
 }
 
 footer {
