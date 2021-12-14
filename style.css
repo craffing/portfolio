@@ -149,6 +149,88 @@ h3 {
     background: linear-gradient(388.83deg, #fced18 -3.41%, rgba(255, 196, 255, 0)52.31%), #ffeec4;
 }
 
+.ommig {
+    width: 80%;
+    position: relative;
+    display: block;
+    margin-top: 10%;
+    font-family: menufont;
+    color: var(--black);
+    margin-left: 4rem;
+}
+
+.tegmig {
+    width: 70%;
+    border-radius: 20px;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+}
+
+.overom {
+    margin-left: 4rem;
+    margin-top: 5rem;
+}
+
+.tekstbokse {
+    width: 90%;
+    border-radius: 20px;
+    position: relative;
+    display: block;
+    margin: 1rem;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    font-family: menufont;
+    color: var(--black);
+}
+
+.multi {
+    background-color: #DACDFF;
+}
+
+.komu {
+    background-color: #E4F5F4;
+}
+
+.nudge {
+    background-color: #FFEEC4;
+}
+
+.uxd {
+    background-color: #FFEAEE;
+}
+
+.yousee {
+    background-color: #AADCDA;
+}
+
+.obro {
+    background-color: #D4DBF9;
+}
+
+.tand {
+    background-color: #FFEEC4;
+}
+
+.migsamlet {
+    width: 30%;
+    float: right;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.afslutning {
+    font-family: menufont;
+    color: var(--black);
+}
+
+.tak {
+    margin-top: 4rem;
+}
+
 footer {
     background-color: #B6E4D0;
     margin-top: auto;
