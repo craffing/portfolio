@@ -49,6 +49,18 @@ h3 {
     background-color: #FCE7E4;
 }
 
+.farvesome {
+    background-color: #F5F5F2;
+}
+
+.farveapp {
+    background-color: #f5f6f2;
+}
+
+.farveart {
+    background-color: #a2e4d1;
+}
+
 .logoimg {
     width: 30%;
     margin-left: 2rem;
@@ -108,7 +120,7 @@ h3 {
 }
 
 .dropbtn {
-    background-color: #FCE7E4;
+    background-color: var(--background);
 }
 
 .front-img {
@@ -191,6 +203,7 @@ h3 {
 }
 
 .brugerrejse {
+    text-decoration: none;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -350,6 +363,28 @@ ul {
     text-align: center;
 }
 
+.hero-imagenemskat {
+    background-image: url("nemskatbaggrund.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: menufont;
+    text-align: center;
+}
+
+.hero-imageartwork {
+    background-image: url("baggrundartwork.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    font-family: menufont;
+    text-align: center;
+}
+
 .born {
     width: 10%;
 }
@@ -380,6 +415,10 @@ ul {
     width: 30%;
     padding: 1rem;
     margin-top: 1rem;
+}
+
+.skema {
+    width: 60%;
 }
 
 .somelogo {
