@@ -8,7 +8,7 @@
 
 @font-face {
     font-family: menufont;
-    src: url(font/biotif-1/Biotif-Regular.ttf);
+    src: url(font/static/Nunito-Light.ttf);
 }
 
 body {
@@ -17,6 +17,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: lft etica
 }
 
 h1 {
@@ -30,6 +31,9 @@ h2 {
 h3 {
     font-weight: normal;
 }
+
+
+/*navbar*/
 
 .topnav {
     overflow: hidden;
@@ -46,11 +50,7 @@ h3 {
 }
 
 .farve {
-    background-color: #FCE7E4;
-}
-
-.farvesome {
-    background-color: #F5F5F2;
+    background-color: #e1ebe8;
 }
 
 .farveapp {
@@ -71,6 +71,9 @@ h3 {
     margin-top: 2rem;
 }
 
+
+/*dropdown menu*/
+
 .dropdown {
     float: left;
     overflow: hidden;
@@ -88,15 +91,10 @@ h3 {
     margin: 0;
 }
 
-.topnav a:hover,
-.dropdown:hover .dropbtn {
-    background-color: #138180;
-}
-
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #B6E4D0;
+    background-color: #D2D5EA;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -123,6 +121,10 @@ h3 {
     background-color: var(--background);
 }
 
+.brugerknap {
+    background-color: #fce7e4;
+}
+
 .front-img {
     display: block;
     float: center;
@@ -130,7 +132,7 @@ h3 {
     color: var(--black);
 }
 
-.over1 {
+.overscript {
     font-family: 'Rouge Script';
     font-size: 70px;
 }
@@ -146,7 +148,7 @@ h3 {
     width: 90%;
     opacity: 0.9;
     border-radius: 20px;
-    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    box-shadow: 0 15px 35px rgb(0 0 0 / 0.2);
 }
 
 .intro {
@@ -167,6 +169,7 @@ h3 {
 .openarms {
     margin-left: 3rem;
     margin-top: 3rem;
+    margin-bottom: 3rem;
     width: 75%;
     border-radius: 20px;
     box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
@@ -190,7 +193,7 @@ h3 {
     transition: all .4s ease-in-out;
     margin: 1.5rem;
     margin-top: 4rem;
-    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    box-shadow: 0 15px 35px rgb(0 0 0 / 0.2);
     font-family: menufont;
     color: var(--black);
 }
@@ -199,7 +202,7 @@ h3 {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: linear-gradient(388.83deg, #ffeec4 -3.41%, rgba(255, 196, 255, 0)52.31%), #0e8f50;
+    background: linear-gradient(388.83deg, #e1ebe8 -3.41%, rgba(255, 196, 255, 0)52.31%), #0e8f50;
 }
 
 .brugerrejse {
@@ -207,34 +210,34 @@ h3 {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: linear-gradient(323.93deg, #67c21c -32.24%, rgba(10, 185, 149, 0) 57.93%), #ffeec4 -32.24%;
+    background: linear-gradient(323.93deg, #67c21c -32.24%, rgba(10, 185, 149, 0) 57.93%), #e1ebe8 -32.24%;
 }
 
 .some {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: linear-gradient(388.83deg, #41b273, rgba(255, 196, 255, 0)52.31%), #f5b9ae -3.41%;
+    background: linear-gradient(388.83deg, #e1ebe8, rgba(255, 196, 255, 0)52.31%), #f5b9ae -3.41%;
 }
 
 .app {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: linear-gradient(388.83deg, #fced18 -3.41%, rgba(255, 196, 255, 0)52.31%), #ffeec4;
+    background: linear-gradient(388.83deg, #fced18 -3.41%, rgba(255, 196, 255, 0)52.31%), #e1ebe8;
 }
 
 .ommig {
     width: 80%;
     position: relative;
     display: block;
-    margin-top: 10%;
+    margin-top: 5%;
     font-family: menufont;
     color: var(--black);
     margin-left: 4rem;
 }
 
-.tegmig {
+.tegning {
     width: 70%;
     border-radius: 20px;
     margin-left: 4rem;
@@ -303,7 +306,8 @@ h3 {
 }
 
 .tak {
-    margin-top: 4rem;
+    margin-top: 12rem;
+    margin-left: 4rem;
 }
 
 .adobe {
@@ -393,6 +397,11 @@ ul {
     width: 40%;
 }
 
+.bornlogolink {
+    width: 40%;
+    justify-content: center;
+}
+
 .ballet {
     width: 40%;
     padding: 1rem;
@@ -419,6 +428,18 @@ ul {
 
 .skema {
     width: 60%;
+}
+
+.link {
+    border-radius: 20px;
+    background-color: #ff9a00;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: menufont;
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
 }
 
 .somelogo {
@@ -453,6 +474,7 @@ footer {
     padding-left: 2rem;
     padding-top: 1rem;
     font-family: menufont;
+    font-size: 20px;
 }
 
 
@@ -460,4 +482,216 @@ footer {
 
 @media only screen and (min-width: 640px) {}
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+    .flex-menu {
+        display: flex;
+        justify-content: right;
+    }
+    .topnav a {
+        float: left;
+        font-size: 29px;
+        font-family: menufont;
+        text-align: right;
+        padding: 30.4px 30px;
+    }
+    .logoimg {
+        width: 50%;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    .dropdown .dropbtn {
+        border: none;
+        outline: none;
+        color: var(--black);
+        padding: 26.4px 14px;
+        text-decoration: none;
+        font-size: 29px;
+        font-family: menufont;
+        margin: 0;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #D2D5EA;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .dropdown-content a:hover {
+        background-color: #A6A508;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropbtn {
+        background-color: var(--background);
+    }
+    /*ændre kun til deres class*/
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: #A6A508;
+    }
+    .brugerknap {
+        background-color: #fce7e4;
+    }
+    .overscript {
+        font-family: 'Rouge Script';
+        font-size: 100px;
+    }
+    .ux {
+        font-size: 30px;
+    }
+    .openarms {
+        margin-top: 3rem;
+        margin-left: 0;
+        margin-bottom: 3rem;
+        width: 150%;
+        border-radius: 20px;
+        box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    }
+    .kort {
+        font-size: 60px;
+        text-align: center;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+    }
+    .projekt {
+        width: 60%;
+        border-radius: 20px;
+        position: relative;
+        display: block;
+        transition: all .4s ease-in-out;
+        margin: 2rem;
+        margin-top: 4rem;
+        box-shadow: 0 15px 35px rgb(0 0 0 / 0.2);
+        font-family: menufont;
+        color: var(--black);
+    }
+    .vejfinder {
+        margin-top: 1rem;
+        width: 80%;
+        opacity: 0.9;
+        border-radius: 20px;
+        box-shadow: 0 15px 35px rgb(0 0 0 / 0.2);
+    }
+    .link {
+        width: 90%;
+        padding: 20px 25px;
+        font-size: 22px;
+    }
+    .kort-container {
+        display: flex;
+        justify-content: center;
+    }
+    .tegning {
+        width: 40%;
+    }
+    .ommigp {
+        width: 50%;
+        margin-left: 5rem;
+        font-size: 25px;
+    }
+    .ommig {
+        font-size: 25px;
+        margin-left: 10rem;
+    }
+    .overom {
+        font-size: 45px;
+    }
+    .tekstbokse {
+        width: 40%;
+        border-radius: 20px;
+        position: relative;
+        display: block;
+        margin: 1rem;
+        margin-top: 4rem;
+        padding-left: 2rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
+        box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+        font-size: 25px;
+    }
+    .komu {
+        margin-left: 6rem;
+    }
+    .nudge {
+        margin-left: 12rem;
+    }
+    .uxd {
+        margin-left: 18rem;
+    }
+    .yousee {
+        margin-left: 24rem;
+    }
+    .obro {
+        margin-left: 18rem;
+    }
+    .tand {
+        margin-left: 12rem;
+    }
+    .tak {
+        font-size: 40px;
+        margin-top: 35rem;
+        margin-left: 20rem;
+    }
+    .moodboard {
+        width: 40%;
+    }
+    .balletlink {
+        width: 70%;
+    }
+    .balletlinkmobil {
+        width: 80%;
+        margin-top: 0;
+    }
+    .bornlogo {
+        width: 30%;
+    }
+    .skema {
+        width: 30%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+    .bornlogolink {
+        width: 220%;
+        margin-left: 1rem;
+        margin-bottom: 15rem;
+    }
+    .hero-imagenemskat {
+        width: 90% margin
+    }
+    .somelogo {
+        width: 5%;
+    }
+    .kontaktside {
+        width: 70%;
+        margin-left: 20rem;
+    }
+    .insta {
+        width: 5%;
+        padding: 1rem;
+    }
+    .face {
+        width: 5%;
+    }
+    .linkd {
+        width: 5%;
+    }
+    .kontakt {
+        font-size: 30px;
+    }
+}
