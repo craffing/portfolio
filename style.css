@@ -504,10 +504,12 @@ footer {
         width: 70%;
         margin: 0;
     }
+    .navlinks {
+        margin-right: 10rem;
+    }
     .dropdown {
         float: left;
         overflow: hidden;
-        margin-right: 10rem;
         margin-top: 5px;
     }
     .dropdown .dropbtn {
