@@ -44,7 +44,7 @@ h3 {
 
 .topnav a {
     color: var(--black);
-    padding: 26.4px 14px;
+    padding: 26.4px 4px;
     text-decoration: none;
     font-size: 19px;
     font-family: menufont;
@@ -101,7 +101,7 @@ h3 {
 }
 
 .dropdown-content a:hover {
-    background-color: var(--background);
+    background-color: #A6A508;
 }
 
 .dropdown:hover .dropdown-content {
@@ -110,10 +110,6 @@ h3 {
 
 .dropbtn {
     background-color: var(--background);
-}
-
-.brugerknap {
-    background-color: #fce7e4;
 }
 
 .front-img {
@@ -154,11 +150,11 @@ h3 {
     font-family: 'Rouge Script';
     font-size: 90px;
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 8rem;
 }
 
 .openarms {
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
     width: 75%;
@@ -177,7 +173,7 @@ h3 {
 }
 
 .projekt {
-    width: 90%;
+    width: 80%;
     border-radius: 20px;
     position: relative;
     display: block;
@@ -188,19 +184,29 @@ h3 {
     font-family: menufont;
     color: var(--black);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
 }
 
 .overskriftindex {
     font-weight: bold;
 }
 
+
+/* ikke relevant pt
 .artwork {
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
     background: linear-gradient(388.83deg, #e1ebe8 -3.41%, rgba(255, 196, 255, 0)52.31%), #0e8f50;
-}
+}*/
+
+
+/* https://www.seanhalpin.design/ */
 
 .brugerrejse {
     text-decoration: none;
@@ -231,7 +237,7 @@ h3 {
     margin-top: 5%;
     font-family: menufont;
     color: var(--black);
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 .tegning {
@@ -248,15 +254,15 @@ h3 {
 }
 
 .tekstbokse {
-    width: 90%;
+    width: 80%;
     border-radius: 20px;
     position: relative;
     display: block;
     margin: 1rem;
     margin-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
     box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
     font-family: menufont;
     color: var(--black);
@@ -303,7 +309,7 @@ h3 {
 }
 
 .tak {
-    margin-top: 12rem;
+    margin-top: 6rem;
     margin-left: 4rem;
 }
 
@@ -347,11 +353,12 @@ ul {
     font-family: 'Rouge Script';
     font-size: 90px;
     text-align: center;
-    margin-top: 9rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
 
 .vejviserkontakt {
-    width: 30%;
+    width: 60%;
 }
 
 .hero-image {
@@ -392,12 +399,14 @@ ul {
 }
 
 .bornlogo {
-    width: 40%;
+    width: 70%;
 }
 
 .bornlogolink {
     width: 40%;
     justify-content: center;
+    box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    margin-bottom: 2rem;
 }
 
 .ballet {
@@ -452,25 +461,27 @@ footer {
 .insta {
     width: 10%;
     float: right;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
 }
 
 .face {
     width: 10%;
     float: right;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
 }
 
 .linkd {
     width: 10%;
     float: right;
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
 }
 
 .kontakt {
     float: left;
     padding-left: 2rem;
-    padding-top: 1rem;
     font-family: menufont;
     font-size: 20px;
 }
@@ -489,6 +500,20 @@ footer {
     .dropdown .dropbtn {
         font-size: 23px;
         margin: 0;
+    }
+    .ommig {
+        margin-left: 4rem;
+    }
+    .tak {
+        font-size: 28px;
+        margin-top: 12rem;
+        margin-left: 4rem;
+    }
+    .kontakt {
+        float: center;
+        padding-left: 2rem;
+        font-family: menufont;
+        font-size: 25px;
     }
 }
 
@@ -573,6 +598,7 @@ footer {
     .flex-container {
         display: flex;
         justify-content: center;
+        flex-direction: row;
     }
     .projekt {
         width: 60%;
@@ -650,7 +676,7 @@ footer {
     }
     .tak {
         font-size: 40px;
-        margin-top: 35rem;
+        margin-top: 30rem;
         margin-left: 20rem;
     }
     .moodboard {
