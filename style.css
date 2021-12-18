@@ -11,13 +11,16 @@
     src: url(font/static/Nunito-Light.ttf);
 }
 
+
+/*https://fonts.google.com/specimen/Nunito*/
+
 body {
     margin: 0;
     background-color: var(--background);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: lft etica
+    font-family: menufont;
 }
 
 h1 {
@@ -40,35 +43,24 @@ h3 {
 }
 
 .topnav a {
-    float: left;
     color: var(--black);
     padding: 26.4px 14px;
     text-decoration: none;
     font-size: 19px;
     font-family: menufont;
-    text-align: right;
-}
-
-.farve {
-    background-color: #e1ebe8;
-}
-
-.farveapp {
-    background-color: #f5f6f2;
-}
-
-.farveart {
-    background-color: #a2e4d1;
 }
 
 .logoimg {
     width: 30%;
-    margin-left: 2rem;
     float: left;
+    margin-top: 2rem;
+    margin-left: 1rem;
 }
 
 .navlinks {
     margin-top: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -80,13 +72,12 @@ h3 {
 }
 
 .dropdown .dropbtn {
-    font-size: 16px;
+    font-size: 19px;
     border: none;
     outline: none;
     color: var(--black);
     padding: 26.4px 14px;
     text-decoration: none;
-    font-size: 19px;
     font-family: menufont;
     margin: 0;
 }
@@ -196,6 +187,12 @@ h3 {
     box-shadow: 0 15px 35px rgb(0 0 0 / 0.2);
     font-family: menufont;
     color: var(--black);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.overskriftindex {
+    font-weight: bold;
 }
 
 .artwork {
@@ -343,10 +340,7 @@ ul {
 .kontaktside {
     text-align: center;
     font-family: menufont;
-    color: white;
     position: relative;
-    background-image: url("img/kontakt.jpg");
-    background-size: 100%;
 }
 
 .kontaktoverskrift {
@@ -354,6 +348,10 @@ ul {
     font-size: 90px;
     text-align: center;
     margin-top: 9rem;
+}
+
+.vejviserkontakt {
+    width: 30%;
 }
 
 .hero-image {
@@ -433,7 +431,7 @@ ul {
 .link {
     border-radius: 20px;
     background-color: #ff9a00;
-    color: white;
+    color: var(--black);
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
@@ -480,13 +478,21 @@ footer {
 
 /*https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design*/
 
-@media only screen and (min-width: 640px) {}
-
-@media only screen and (min-width: 768px) {
-    .flex-menu {
-        display: flex;
-        justify-content: right;
+@media only screen and (min-width: 640px) {
+    .topnav a {
+        color: var(--black);
+        padding: 26.4px 14px;
+        text-decoration: none;
+        font-size: 23px;
+        font-family: menufont;
     }
+    .dropdown .dropbtn {
+        font-size: 23px;
+        margin: 0;
+    }
+}
+
+@media only screen and (min-width: 1007px) {
     .topnav a {
         float: left;
         font-size: 29px;
@@ -495,21 +501,17 @@ footer {
         padding: 30.4px 30px;
     }
     .logoimg {
-        width: 50%;
+        width: 70%;
+        margin: 0;
     }
     .dropdown {
         float: left;
         overflow: hidden;
+        margin-right: 10rem;
+        margin-top: 5px;
     }
     .dropdown .dropbtn {
-        border: none;
-        outline: none;
-        color: var(--black);
-        padding: 26.4px 14px;
-        text-decoration: none;
         font-size: 29px;
-        font-family: menufont;
-        margin: 0;
     }
     .dropdown-content {
         display: none;
@@ -537,9 +539,12 @@ footer {
         background-color: var(--background);
     }
     /*ændre kun til deres class*/
-    .topnav a:hover,
+    .navlinks :hover,
     .dropdown:hover .dropbtn {
         background-color: #A6A508;
+    }
+    .navlinks {
+        justify-content: right;
     }
     .brugerknap {
         background-color: #fce7e4;
