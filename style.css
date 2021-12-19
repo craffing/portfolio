@@ -203,9 +203,6 @@ h3 {
     background: linear-gradient(388.83deg, #e1ebe8 -3.41%, rgba(255, 196, 255, 0)52.31%), #0e8f50;
 }*/
 
-
-/* https://www.seanhalpin.design/ */
-
 .brugerrejse {
     text-decoration: none;
     padding-left: 20px;
@@ -213,6 +210,9 @@ h3 {
     padding-bottom: 20px;
     background: linear-gradient(323.93deg, #67c21c -32.24%, rgba(10, 185, 149, 0) 57.93%), #e1ebe8 -32.24%;
 }
+
+
+/* https://www.seanhalpin.design/ */
 
 .some {
     padding-left: 20px;
@@ -515,6 +515,9 @@ footer {
     }
 }
 
+
+/*https://www.browserstack.com/guide/ideal-screen-sizes-for-responsive-design*/
+
 @media only screen and (min-width: 1007px) {
     .topnav a {
         float: left;
@@ -563,7 +566,6 @@ footer {
     .dropbtn {
         background-color: var(--background);
     }
-    /*ændre kun til deres class*/
     .navlinks :hover,
     .dropdown:hover .dropbtn {
         background-color: var(--background);
