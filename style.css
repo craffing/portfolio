@@ -1,6 +1,4 @@
 :root {
-    --primary: #f9c800;
-    --secondary: #d9d0c1;
     --background: #e1ebe8;
     --hover: #BDA243;
     --black: #1a2421;
@@ -568,13 +566,10 @@ footer {
     /*ændre kun til deres class*/
     .navlinks :hover,
     .dropdown:hover .dropbtn {
-        background-color: #A6A508;
+        background-color: var(--background);
     }
     .navlinks {
         justify-content: right;
-    }
-    .brugerknap {
-        background-color: #fce7e4;
     }
     .overscript {
         font-family: 'Rouge Script';
@@ -700,9 +695,9 @@ footer {
         margin-right: 10rem;
     }
     .bornlogolink {
-        width: 220%;
+        width: 20%;
         margin-left: 1rem;
-        margin-bottom: 15rem;
+        margin-bottom: 10rem;
     }
     .hero-imagenemskat {
         width: 90% margin
