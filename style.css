@@ -381,7 +381,8 @@ ul {
     text-align: center;
 }
 
-.hero-imageartwork {
+
+/* .hero-imageartwork {
     background-image: url("baggrundartwork.jpg");
     height: 100%;
     background-position: center;
@@ -390,7 +391,7 @@ ul {
     position: relative;
     font-family: menufont;
     text-align: center;
-}
+}*/
 
 .born {
     width: 10%;
@@ -584,9 +585,13 @@ footer {
         margin-top: 3rem;
         margin-left: 0;
         margin-bottom: 3rem;
-        width: 150%;
+        width: 40%;
         border-radius: 20px;
         box-shadow: 0 15px 20px rgb(0 0 0 / 0.2);
+    }
+    .afslutning {
+        text-align: center;
+        font-size: 23px;
     }
     .kort {
         font-size: 60px;
@@ -628,13 +633,15 @@ footer {
     .tegning {
         width: 40%;
     }
-    .kompetencersoft {
+    .kompetencer {
         margin-right: 10rem;
         margin-left: 10rem;
+        font-weight: bold;
     }
-    .kompetencerux {
-        margin-right: 10rem;
+    .kompetencerover {
+        margin-right: 17rem;
         margin-left: 10rem;
+        font-weight: bold;
     }
     .ommigp {
         width: 50%;
