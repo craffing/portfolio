@@ -628,6 +628,14 @@ footer {
     .tegning {
         width: 40%;
     }
+    .kompetencersoft {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
+    .kompetencerux {
+        margin-right: 10rem;
+        margin-left: 10rem;
+    }
     .ommigp {
         width: 50%;
         margin-left: 5rem;
